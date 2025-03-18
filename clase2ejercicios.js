@@ -51,5 +51,17 @@ console.log(deseos)
 
 /* Crea un array de 3 objetos que representen películas, cada una con título, director y año
 de lanzamiento. Imprime el director de la última película. */
+let pelicula1 = {titulo: "Interstelar", director: "Christopher Nolan", año: "2014"}
+let pelicula2 = {titulo: "El conjuro 1", director: "James Wan", año: "2013"}
+let pelicula3 = {titulo: "Sinister", director: "Scott Derrickson", año: "2012"}
 
+let peliculas = [pelicula1,pelicula2,pelicula3]
+console.log(peliculas[2].director)
 
+/* Declara tres variables booleanas y usa operadores lógicos para verificar si
+al menos dos son verdaderas. Imprime true o false en la consola dependiendo del resultado. */
+
+let var1 = true
+let var2 = false
+let var3 = true
+console.log((var1 && var2)||(var1 && var3) || (var2 && var3))
