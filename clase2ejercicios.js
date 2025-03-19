@@ -125,3 +125,27 @@ para comparar sus valores. Imprime el resultado de cada comparación. */
 let variableNum1 = 190
 let variableNum2 = 200
 console.log("12a.", variableNum1 > variableNum2)
+console.log("12b.", variableNum1 < variableNum2)
+console.log("12c.", variableNum1 >= variableNum2)
+console.log("12d.", variableNum1 <= variableNum2)
+console.log("12e.", variableNum1 === variableNum2)
+console.log("12f.", variableNum1 !== variableNum2)
+
+/*Declara una variable sin asignarle un valor y otra variable con valor null.
+Utiliza typeof para imprimir el tipo de cada variable. */
+
+let prueba
+let varNull = null
+
+console.log("13a.", typeof(prueba))
+console.log("13b.", typeof(varNull)) //devuelve object, pero es un bug historico
+
+/* Declara una variable que almacene un número como string (por ejemplo, "123").
+Convierte este string a un número usando parseInt o Number y demuestra que ahora
+puedes realizar operaciones matemáticas con él. */
+
+let NumeroString = '123'
+NumeroString = Number(NumeroString) //se puede usar parseInt
+
+console.log("14.",NumeroString+7)
+
